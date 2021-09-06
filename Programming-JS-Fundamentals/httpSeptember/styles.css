@@ -1,0 +1,31 @@
+body {
+    background: blue;
+}
+h1 {
+    font-size: medium;
+    font-style: italic;
+    color: chartreuse;
+    font-family: 'Courier New', Courier, monospace;
+    animation: alternate;
+    align-items: center;
+    
+}
+.red {
+    color: crimson;
+    border: solid 1px darkgray;
+}
+button {
+    text-transform: uppercase;
+    background: rgb(46, 182, 28);
+    color: rgb(20, 19, 19);
+    border: none;
+    padding: 6px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+button:hover {
+    background: white;
+    border: 1px solid gold;
+    color: rgb(20, 19, 19);
+    cursor: pointer;
+}
