@@ -4,7 +4,7 @@ function solve(input) {
     let visochina = Number(input[2]);
     let avgHigh = Number(input[3]);
 
-    let obem = shirochina * duljina * visochina;
+    let obem = (shirochina * duljina * visochina);
     let obemStaq = (avgHigh + 0.40)*2 *2;
     let mqsto =obem / obemStaq;
     
