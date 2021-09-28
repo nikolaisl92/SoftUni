@@ -15,7 +15,7 @@ function demo(input) {
             break;
         }
         suitcaseCounter++;
-        if (suitcaseCounter % 3 === 0) {
+        if (suitcaseCounter % 3 == 0) {
             suitcase *= 1.1;
         }
         index++;
