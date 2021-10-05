@@ -7,7 +7,7 @@ function solve(input) {
     let kidTicket = 0;
     let standartTicket = 0;
 
-    while (command !== 'Finish') {
+    while (command != 'Finish') {
         let name = command;
         let freeSpace = Number(input[index]);
         index++;
