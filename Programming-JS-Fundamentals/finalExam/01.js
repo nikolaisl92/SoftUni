@@ -1,7 +1,7 @@
 function solve(input) {
     let email = input.shift();
 
-    while (input[0] !== 'Complete') {
+    while (input[0] != 'Complete') {
         let line = input.shift().split(' ');
         if (line[1] == 'Upper') {
             email = email.toUpperCase();
