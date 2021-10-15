@@ -1,2 +1,2 @@
 # SoftUni
-My education from SoftUni
+My education from SoftUni!
