@@ -8,16 +8,13 @@ function solve(input) {
     let obemStaq = (avgHigh + 0.40)*2 *2;
     let place =obem / obemStaq;
     
-    if(place >= 3 && mqsto <= 10) {
+    if(place >= 3 && place <= 10) {
         console.log(`The spacecraft holds ${Math.floor(place)} astronauts.`);
     } else if (place < 3) {
         console.log("The spacecraft is too small.");
     } else {
         console.log("The spacecraft is too big.");
     }
-
-   
-
 }
 solve(["3.5",
 "4",
